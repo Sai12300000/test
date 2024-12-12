@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: qa
+pool: QA
 
 steps:
 - task: simplifyqa-pipeline-executor-v2@2
